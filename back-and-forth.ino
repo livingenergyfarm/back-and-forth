@@ -22,6 +22,9 @@ The basic cycle is:
 5. Stop;
 6. Soak;
 7. Repeat.
+
+When a switch is closed (shorted to ground), interrupt the cycle and spin
+constantly in a single direction.
 */
 const int forwardDuration = 3000; // ms
 const int pauseDuration = 2000; // ms
